@@ -1,0 +1,35 @@
+
+.tooltip{
+    position: absolute;
+    right:50px;
+     top:50px;      
+            width: 400px;
+            background: #e2dddd;
+            color: #111010;
+            padding: 10px;
+            border-radius: 5px;
+            display: none; 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.tooltip h3{
+    text-align:center;
+
+}
+.tooltip p {
+    margin: 5px 0;
+}
+.tooltip ul {
+    padding-left: 20px;
+}
+
+area {
+    position: relative;
+}
+
+area:hover + .tooltip {
+    display: block;
+    opacity: 1;
+}
+.container:hover map{
+    transform: scale(1.05);
+}
